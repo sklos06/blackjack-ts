@@ -1,8 +1,11 @@
 import React from "react"
 
-export default function Board(){
+type boardProps = {
 
-    return(
+}
+export default function Board() {
+
+    return (
         <div className="board">
             {/*<div className="board-cards">*/}
             {/*    {croupierCards}*/}

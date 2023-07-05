@@ -1,8 +1,8 @@
 import React from "react"
 
 
-export default function Card(props) {
+export default function Card(url:string) {
     return (
-        <img className="card" alt="card" src={props.cardUrl}/>
+        <img className="card" alt="card" src={url}/>
     )
 }

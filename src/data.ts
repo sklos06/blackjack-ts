@@ -1,8 +1,8 @@
 type Card = {
-    id: number;
-    url: string;
-    value: number;
-};
+    id: number,
+    url: string,
+    value: number
+}
 
 const data:Card[] = [
     {
