@@ -1,7 +1,10 @@
 import React from "react"
 
-export default function Outcome(score:string){
+type outcomeProps = {
+    score:string
+}
+export default function Outcome(props:outcomeProps){
     return (
-        <h1 className="result">{score}</h1>
+        <h1 className="result">{props.score}</h1>
     )
 }
