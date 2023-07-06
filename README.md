@@ -1,1 +1,1 @@
-##Blackjack in typescript
+Blackjack in typescript
